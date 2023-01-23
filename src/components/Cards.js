@@ -33,7 +33,7 @@ const Cards = () => {
                                         Price:  ₹{element.price}
                                     </Card.Text>
                                     <div className="button_div d-flex justify-content-center">
-                                        <Button variant="primary" className='col-lg-12' onClick={() => send(element)}>Add to Cart</Button>
+                                        <Button variant="primary" className='col-12' onClick={() => send(element)}>Add to Cart</Button>
                                     </div>
                                 </Card.Body>
                             </Card>
